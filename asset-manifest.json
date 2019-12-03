@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ColorCart/static/css/main.3d0ab1af.chunk.css",
-    "main.js": "/ColorCart/static/js/main.1cc7e25f.chunk.js",
-    "main.js.map": "/ColorCart/static/js/main.1cc7e25f.chunk.js.map",
-    "runtime-main.js": "/ColorCart/static/js/runtime-main.f77322c1.js",
-    "runtime-main.js.map": "/ColorCart/static/js/runtime-main.f77322c1.js.map",
-    "static/js/2.d195d1a3.chunk.js": "/ColorCart/static/js/2.d195d1a3.chunk.js",
-    "static/js/2.d195d1a3.chunk.js.map": "/ColorCart/static/js/2.d195d1a3.chunk.js.map",
-    "index.html": "/ColorCart/index.html",
-    "precache-manifest.03370f35b6de2b52491c8f2ee564d36c.js": "/ColorCart/precache-manifest.03370f35b6de2b52491c8f2ee564d36c.js",
-    "service-worker.js": "/ColorCart/service-worker.js",
-    "static/css/main.3d0ab1af.chunk.css.map": "/ColorCart/static/css/main.3d0ab1af.chunk.css.map",
-    "static/media/CartIcon.svg": "/ColorCart/static/media/CartIcon.39a60626.svg",
-    "static/media/NewEngen-Logo.svg": "/ColorCart/static/media/NewEngen-Logo.56b04b4c.svg"
+    "main.css": "/Color_Cart/static/css/main.3d0ab1af.chunk.css",
+    "main.js": "/Color_Cart/static/js/main.f7f2bf21.chunk.js",
+    "main.js.map": "/Color_Cart/static/js/main.f7f2bf21.chunk.js.map",
+    "runtime-main.js": "/Color_Cart/static/js/runtime-main.f1c38a67.js",
+    "runtime-main.js.map": "/Color_Cart/static/js/runtime-main.f1c38a67.js.map",
+    "static/js/2.d195d1a3.chunk.js": "/Color_Cart/static/js/2.d195d1a3.chunk.js",
+    "static/js/2.d195d1a3.chunk.js.map": "/Color_Cart/static/js/2.d195d1a3.chunk.js.map",
+    "index.html": "/Color_Cart/index.html",
+    "precache-manifest.aca561b010a9227a809b5011986625e5.js": "/Color_Cart/precache-manifest.aca561b010a9227a809b5011986625e5.js",
+    "service-worker.js": "/Color_Cart/service-worker.js",
+    "static/css/main.3d0ab1af.chunk.css.map": "/Color_Cart/static/css/main.3d0ab1af.chunk.css.map",
+    "static/media/CartIcon.svg": "/Color_Cart/static/media/CartIcon.39a60626.svg",
+    "static/media/NewEngen-Logo.svg": "/Color_Cart/static/media/NewEngen-Logo.56b04b4c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f77322c1.js",
+    "static/js/runtime-main.f1c38a67.js",
     "static/js/2.d195d1a3.chunk.js",
     "static/css/main.3d0ab1af.chunk.css",
-    "static/js/main.1cc7e25f.chunk.js"
+    "static/js/main.f7f2bf21.chunk.js"
   ]
 }
