@@ -1,0 +1,20 @@
+.header{    
+    height: 70px;
+}
+.myheader{
+    background-color: #1e4091;
+    height: 65px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+}
+
+.logo {
+    float: left;
+    width: 60px;
+    cursor: pointer;    
+}
+.cart {
+    float: right;
+    cursor: pointer;
+    /* padding-top: 10px; */
+}

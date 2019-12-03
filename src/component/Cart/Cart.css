@@ -1,0 +1,26 @@
+.colorDisplay {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.title{
+    padding: 20px 0px 3px 0px;
+    font-weight: bold;
+}
+
+.content{
+    margin-bottom: 20px;
+}
+
+.no-content{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px 0px;
+    text-align: center;
+    color: #f13757;
+}
