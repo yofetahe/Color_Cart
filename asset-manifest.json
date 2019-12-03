@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Color_Cart/static/css/main.3d0ab1af.chunk.css",
-    "main.js": "/Color_Cart/static/js/main.30f5c14d.chunk.js",
-    "main.js.map": "/Color_Cart/static/js/main.30f5c14d.chunk.js.map",
+    "main.js": "/Color_Cart/static/js/main.a9ce87c9.chunk.js",
+    "main.js.map": "/Color_Cart/static/js/main.a9ce87c9.chunk.js.map",
     "runtime-main.js": "/Color_Cart/static/js/runtime-main.f1c38a67.js",
     "runtime-main.js.map": "/Color_Cart/static/js/runtime-main.f1c38a67.js.map",
     "static/js/2.d195d1a3.chunk.js": "/Color_Cart/static/js/2.d195d1a3.chunk.js",
     "static/js/2.d195d1a3.chunk.js.map": "/Color_Cart/static/js/2.d195d1a3.chunk.js.map",
     "index.html": "/Color_Cart/index.html",
-    "precache-manifest.19f1284f02afa933fa7f1c2cf30137b3.js": "/Color_Cart/precache-manifest.19f1284f02afa933fa7f1c2cf30137b3.js",
+    "precache-manifest.93699ead68088ab7d86c6383d76bef3f.js": "/Color_Cart/precache-manifest.93699ead68088ab7d86c6383d76bef3f.js",
     "service-worker.js": "/Color_Cart/service-worker.js",
     "static/css/main.3d0ab1af.chunk.css.map": "/Color_Cart/static/css/main.3d0ab1af.chunk.css.map",
     "static/media/CartIcon.svg": "/Color_Cart/static/media/CartIcon.39a60626.svg",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f1c38a67.js",
     "static/js/2.d195d1a3.chunk.js",
     "static/css/main.3d0ab1af.chunk.css",
-    "static/js/main.30f5c14d.chunk.js"
+    "static/js/main.a9ce87c9.chunk.js"
   ]
 }
