@@ -1,6 +1,7 @@
 import React, { createContext, useState, useEffect } from 'react';
 // import { useQuery } from '@apollo/react-hooks';
 import { gql } from 'apollo-boost';
+import debounce from "lodash.debounce";
 
 import { client } from '../API/api-call'
 
@@ -8,10 +9,11 @@ export const ColorsContext = createContext();
 
 const ColorsContextProvider = (props) => {
 
+    const [loading, setLoading] = useState(false);
     const [colorsList, setColorsList] = useState([]);
     const [selectedColors, setSelectedColors] = useState([]);
     const [count, setCount] = useState(0);
-    const [colorNumber, setColorNumber] = useState(21);
+    const [colorNumber, setColorNumber] = useState(40);
     const [colorPaletteName, setColorPaletteName] = useState("");
     const [prevSavedColorPalette, setPrevSavedColorPalette] = useState([]);
 
@@ -30,6 +32,8 @@ const ColorsContextProvider = (props) => {
     // }`;
     function LoadMore() {
         setColorNumber(prevNum => prevNum + 21);
+        console.log(colorNumber);
+        setLoading(true);
         client.query({
             query: gql`
             {
@@ -46,7 +50,8 @@ const ColorsContextProvider = (props) => {
             }`
         })
         .then(result => {
-            setColorsList(result.data.colors)
+            setColorsList(result.data.colors);
+            setLoading(false);
         });      
         // const { loading, error, data } = useQuery(LOAD_MORE_COLOR).then(result => setColorsList(result.data.colors));    
     }
@@ -81,6 +86,7 @@ const ColorsContextProvider = (props) => {
     //     }
     // }`;
     useEffect(()=> {
+        setLoading(true);
         client.query({
             query: gql`
             {
@@ -96,9 +102,23 @@ const ColorsContextProvider = (props) => {
             }`
         })
         .then(result => {
-            setColorsList(result.data.colors)
+            setColorsList(result.data.colors);
+            setLoading(false);
         });
     },[])
+
+
+    window.onscroll = debounce(() => {        
+        if (
+            Math.round(window.innerHeight + document.documentElement.scrollTop)
+          === document.documentElement.offsetHeight
+        ) {
+            setColorNumber(prevNum => prevNum + 21);
+            // setCount(prevCount => prevCount + 1);
+            console.log("IN", colorNumber);
+            // LoadMore();            
+        }
+    }, 100);
 
     const handleInputChange = (value) =>{
         
