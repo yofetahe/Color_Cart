@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/yofetahe/Color_Cart/static/css/main.3d0ab1af.chunk.css",
-    "main.js": "/yofetahe/Color_Cart/static/js/main.3f9345f9.chunk.js",
-    "main.js.map": "/yofetahe/Color_Cart/static/js/main.3f9345f9.chunk.js.map",
-    "runtime-main.js": "/yofetahe/Color_Cart/static/js/runtime-main.bebf5063.js",
-    "runtime-main.js.map": "/yofetahe/Color_Cart/static/js/runtime-main.bebf5063.js.map",
-    "static/js/2.d195d1a3.chunk.js": "/yofetahe/Color_Cart/static/js/2.d195d1a3.chunk.js",
-    "static/js/2.d195d1a3.chunk.js.map": "/yofetahe/Color_Cart/static/js/2.d195d1a3.chunk.js.map",
-    "index.html": "/yofetahe/Color_Cart/index.html",
-    "precache-manifest.01a3804119104fa1726059ce80873f71.js": "/yofetahe/Color_Cart/precache-manifest.01a3804119104fa1726059ce80873f71.js",
-    "service-worker.js": "/yofetahe/Color_Cart/service-worker.js",
-    "static/css/main.3d0ab1af.chunk.css.map": "/yofetahe/Color_Cart/static/css/main.3d0ab1af.chunk.css.map",
-    "static/media/CartIcon.svg": "/yofetahe/Color_Cart/static/media/CartIcon.39a60626.svg",
-    "static/media/NewEngen-Logo.svg": "/yofetahe/Color_Cart/static/media/NewEngen-Logo.56b04b4c.svg"
+    "main.css": "/yofetahe/ColorCart/static/css/main.3d0ab1af.chunk.css",
+    "main.js": "/yofetahe/ColorCart/static/js/main.6644b133.chunk.js",
+    "main.js.map": "/yofetahe/ColorCart/static/js/main.6644b133.chunk.js.map",
+    "runtime-main.js": "/yofetahe/ColorCart/static/js/runtime-main.59008d1d.js",
+    "runtime-main.js.map": "/yofetahe/ColorCart/static/js/runtime-main.59008d1d.js.map",
+    "static/js/2.d195d1a3.chunk.js": "/yofetahe/ColorCart/static/js/2.d195d1a3.chunk.js",
+    "static/js/2.d195d1a3.chunk.js.map": "/yofetahe/ColorCart/static/js/2.d195d1a3.chunk.js.map",
+    "index.html": "/yofetahe/ColorCart/index.html",
+    "precache-manifest.79104b6d99f09c840012e37545da15ff.js": "/yofetahe/ColorCart/precache-manifest.79104b6d99f09c840012e37545da15ff.js",
+    "service-worker.js": "/yofetahe/ColorCart/service-worker.js",
+    "static/css/main.3d0ab1af.chunk.css.map": "/yofetahe/ColorCart/static/css/main.3d0ab1af.chunk.css.map",
+    "static/media/CartIcon.svg": "/yofetahe/ColorCart/static/media/CartIcon.39a60626.svg",
+    "static/media/NewEngen-Logo.svg": "/yofetahe/ColorCart/static/media/NewEngen-Logo.56b04b4c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bebf5063.js",
+    "static/js/runtime-main.59008d1d.js",
     "static/js/2.d195d1a3.chunk.js",
     "static/css/main.3d0ab1af.chunk.css",
-    "static/js/main.3f9345f9.chunk.js"
+    "static/js/main.6644b133.chunk.js"
   ]
 }
